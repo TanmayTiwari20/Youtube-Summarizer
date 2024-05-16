@@ -35,7 +35,8 @@ def create_summary(transcription: str) -> str:
     prompt = """
     You are a professional text summarizer, you read the input text given to you
     and then return the summarized version of the text while keeping the 
-    meaning relevant and accurate. Please provide the accurate summarization of the context given to you
+    meaning relevant and accurate. Please provide the accurate summarization of the context given to you. 
+    Just give the summarized content and nothing else.
     <context>
     {transcription}
     """
