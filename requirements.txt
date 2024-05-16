@@ -1,0 +1,4 @@
+youtube_transcript_api
+transformers
+torch
+gradio
