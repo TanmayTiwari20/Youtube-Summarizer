@@ -1,6 +1,6 @@
 # Youtube-Summarizer
-Python app to summarize Youtube videos using LLMs and transformers. Uses youtube_transcript_api to fetch the captions and uses them to summarize the video.
-Using streamlit for UI and GROQ for a faster LLM inferencing.
+- Python app to summarize Youtube videos using LLMs. Uses youtube_transcript_api to fetch the captions and uses them to summarize the video.
+- Using streamlit for UI and GROQ for a faster LLM inferencing.
 
 Example use: Enter the youtube URL:
 -- streamlit run app.py
